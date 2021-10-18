@@ -1,0 +1,105 @@
+.patients-img img{
+    width: 10rem;
+}
+
+.patients h2{
+    color: #666;
+}
+
+.patients p{
+    font-size: 1.2rem;
+}
+
+.homeBtn{
+    border: none;
+    background: #002d74;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 50px;
+}
+
+.homeBtn:hover{
+    border: 3px solid #002d74;
+    background: none;
+    color: #002d74;
+}
+
+.details{
+    padding: 5rem 0;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.atHome{
+    /* padding-top: ; */
+    /* margin-top: 5rem?; */
+    background: rgb(243,215,3);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.atHome h2 span{
+    color: #666;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.atHome h2{
+    color: #002d74;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.atHome p{
+    font-size: 1.3rem;
+}
+
+.welcome{
+    /* padding-top: ; */
+    /* margin-top: 5rem?; */
+    background: rgb(0,90,238);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome h2 span{
+    color: #666;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.welcome h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.welcome p{
+    font-size: 1.3rem;
+    color: #eee;
+}
+
+.atHomeBtn{
+    border-radius: 20px;
+    border: none;
+    padding: .5rem 1.5rem
+}
+
+.atHomeBtn:hover{
+    border: 3px solid #002d74;
+    background: none;
+    color: #002d74;
+}
+
+
+/* media  queries */
+@media (max-width: 991px){
+    .details{
+        gap: 5rem;
+    }
+}

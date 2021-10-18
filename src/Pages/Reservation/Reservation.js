@@ -11,7 +11,7 @@ const Reservation = () => {
     const stringReserveId = (parseInt(reserveId))
 
     useEffect(() => {
-        fetch("/services.JSON")
+        fetch("/services.json")
             .then(res => res.json())
             .then(data => data.filter(info => {
                 // console.log(parseInt(info.id))
