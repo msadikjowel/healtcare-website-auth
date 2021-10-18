@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Same-Day Sick Visits",
+        "img": "https://www.sarmientomd.com/wp-content/uploads/2018/10/child-thermostat.jpg",
+        "shortDesc": "Soul Sense Healthcare gets to know your child, so a same-day sick visit means you and your child get the attention you need and the personalized care you deserve.",
+        "longDesc": "If your child is sick, we encourage you to contact Dr. Sarmiento’s office immediately. Our team can typically get you a same-day appointment or can offer guidance and referrals, depending on the severity of the illness. Call 714-771-2229 today. The emergency room should certainly be used for life-threatening situations. However, there are many advantages to taking your child to your local pediatrician for a same-day appointment."
+    },
+    {
+        "id": 2,
+        "name": "Well-Child checkups",
+        "img": "https://www.sarmientomd.com/wp-content/uploads/2018/10/checkup-600x400.jpg",
+        "shortDesc": "Soul Sense Healthcare sees children of all ages and stages, often into early adulthood. Kids love the fun and friendly environment in the office.",
+        "longDesc": "While same-day sick visits are sometimes a necessity, regular visits with Soul Sense Healthcare can help to keep your child healthy. Well-child checkups are recommended for children of all ages. More frequent visits are required for children under the age of three. In addition, the American Academy of Pediatrics (AAP) recommends annual visits throughout adolescence and into adulthood."
+    },
+    {
+        "id": 3,
+        "name": "Newborn Visits",
+        "img": "https://www.sarmientomd.com/wp-content/uploads/2018/10/newborn-visit-600x401.jpg",
+        "shortDesc": "Soul Sense Healthcare sees children from their very first appointment—around 3-5 days—to their teenage years (and often beyond).",
+        "longDesc": "The first two years of your child’s life are the most important in their growth and development. Checkups are important throughout adolescence, but more frequent visits from birth through two years are highly recommended by the American Academy of Pediatrics. Get the support you need for your newborn and gain a doctor you can trust throughout your baby’s development. Call our team at 714-771-2229 to schedule an appointment."
+    },
+    {
+        "id": 4,
+        "name": "School & Sports Physicals",
+        "img": "https://www.sarmientomd.com/wp-content/uploads/2018/10/soccer-600x400.jpg",
+        "shortDesc": "Whether or not your school or team require it, a sports physical is a great way to see that your athlete can safely play. It’s also required in most states.",
+        "longDesc": "Most school and local sports teams require sports physicals, also known as pre-participation physicals. School and sports physicals in Soul Sense Healthcare's office take place in a kid-friendly environment with a team that carefully tracks your child’s growth and development."
+    },
+    {
+        "id": 5,
+        "name": "Asthma & Chronic Illnesses",
+        "img": "https://www.sarmientomd.com/wp-content/uploads/2018/10/allergies-600x400.jpg",
+        "shortDesc": "With 30 years of experience as a pediatrician, Soul Sense Healthcare has helped manage many pediatric chronic illnesses.",
+        "longDesc": "Around 15-20% of children in the United States live with chronic conditions like asthma and diabetes, as well as developmental disabilities, Attention-Deficit Disorder (ADHD), and Autism Spectrum Disorder (ASD). These children require very different levels of treatment, but they share a need for extra attention and support."
+    },
+    {
+        "id": 6,
+        "name": "Pregnancy/Ob",
+        "img": "https://adriaticawomenshealth.com/wp-content/uploads/2017/05/awh-obstetrics.jpg",
+        "shortDesc": "Being pregnant, even just planning to get pregnant, can be one of the most exciting times in a woman’s life.",
+        "longDesc": "As women and mothers ourselves, we understand the excitement… and the accompanying uncertainty and concern. And as board-certified obstetrics specialists with many years of experience, we understand that the commitment of our doctors and support staff is as fundamental to your care as our training and capabilities. That’s why we are dedicated to providing the highest standard of obstetrics care."
+    },
+    {
+        "id": 7,
+        "name": "Gynecology",
+        "img": "https://adriaticawomenshealth.com/wp-content/uploads/2017/05/awh-gynecology.jpg",
+        "shortDesc": "As a woman, your healthcare needs are different… and they change throughout your lifetime. From that first exam as a teen to your childbearing years to menopause and beyond.",
+        "longDesc": "our mission here at Soul Sense Healthcare is to provide you the highest-quality care. This means focusing on your unique needs, offering the most complete care options from the forefront of OB/GYN medicine, and tailoring all that we do to achieve the best possible treatment outcomes for you."
+    },
+    {
+        "id": 8,
+        "name": "Menopause",
+        "img": "https://adriaticawomenshealth.com/wp-content/uploads/2017/05/awh-menopause.jpg",
+        "shortDesc": "we’re devoted to providing the highest standard of care for women through every stage of life. This includes menopause, an important time of transition in women’s lives, lifestyles and health.",
+        "longDesc": "Menopause, usually occurring around the age of 50, is when a woman has not had her period for a full year. Often called “the change of life,” menopause is a natural part of aging that marks the end of a woman’s childbearing years… and is accompanied by physiological changes. Of course, all women are different. Each woman’s body follows its own timeline, with some women entering menopause in their mid-40s and others becoming menopausal in their 50s. The process of change that leads to menopause — called perimenopause — can begin in a woman’s late 30s or even as late as her early 50s. And the process of change can take from two to eight years."
+    }
+]

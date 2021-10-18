@@ -1,0 +1,19 @@
+.logo{
+    text-decoration: none;
+    /* color: #fff; */
+    font-size: 1.5rem;
+    margin-right: 40px;
+    color: #bda600;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: #fff;
+}
+
+.nav .navlink{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+

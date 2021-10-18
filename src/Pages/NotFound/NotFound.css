@@ -1,0 +1,50 @@
+.notFound{
+    background-image: url(./../../image/notfound.png);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btnNotFound{
+    text-align: center;
+    margin: 20px 0
+}
+
+.notFoundBtn{
+    /* position: absolute;
+    top: 5rem;
+    left: 50%; */
+    /* text-align: center; */
+    /* align-items: center; */
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    background-color:#002d74;
+    color: #fff;
+    padding: .5rem 1.2rem;
+}
+
+.notFoundBtn:hover{
+    background: #041b3d;
+}
+
+
+/* media queries */
+@media (max-width: 991px){
+    .notFound{
+        background-image: url(./../../image/notfound.png);
+        background-size: 100%;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .notFoundBtn{
+        top: 10rem;
+        left: 10rem;
+    }
+}

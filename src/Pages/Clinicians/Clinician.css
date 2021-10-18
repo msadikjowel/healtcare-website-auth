@@ -1,0 +1,52 @@
+.goal{
+    margin:0;
+    background: rgb(0,45,116);
+}
+
+.goal h3{
+    color: rgb(216, 207, 207);
+    font-size: 18px;
+    font-weight: 100;
+    padding: 40px;
+    line-height: 1.5;   
+}
+
+.news{
+    background: rgb(243,215,3);
+}
+
+.news .news-contents{
+    padding: 40px;
+}
+
+.news .news-contents h2{
+    color: rgb(0,90,238);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.news .news-contents h4{
+    color:rgb(0,90,238);
+    font-weight:400;
+}
+
+.news .news-contents p{
+    font-size: 1.2rem;
+}
+
+
+.learning .learning-contents{
+    padding: 40px;
+}
+
+.learning .learning-contents h2{
+    color: #002d74;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.learning .learning-contents p{
+    font-size: 1.2rem;
+}

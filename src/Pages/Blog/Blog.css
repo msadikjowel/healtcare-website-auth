@@ -1,0 +1,57 @@
+.title{
+    font-size: 3rem;
+}
+
+.title span{
+    color: #002d74;
+}
+
+.blog1{
+    display: flex;
+}
+
+.blog1 .blog-img{
+    width: 25rem;
+    margin-right: 20px;
+}
+
+.blog-text h2{
+    color: #bda600;
+    font-weight: bold;
+}
+
+.blog-text span{
+    color: #bda600;
+    text-decoration: underline;
+}
+
+
+
+/* media queries */
+@media (max-width: 991px){
+    .blog1{
+        display: block;
+        text-align: center;
+    }
+
+    .blog1 .blog-img{
+        margin: auto;
+        text-align: center;
+        width: 20rem;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:400px){
+    .blog1 .blog-img{
+        width: 15rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+}
