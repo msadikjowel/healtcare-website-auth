@@ -8,6 +8,7 @@
 }
 
 .service-container{
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;

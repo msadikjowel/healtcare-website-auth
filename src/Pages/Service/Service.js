@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = (props) => {
-    const { name, img, shortDesc } = props.service;
+    const { id, name, img, shortDesc } = props.service;
     return (
         <div className="carts">
             <div className="cart">
@@ -13,7 +14,9 @@ const Service = (props) => {
                 <div className="cart-text">
                     <h3>{name}</h3>
                     <p>{shortDesc}</p>
-                    <button className="serviceBtn">Reservation</button>
+                    <Link to={`/reservation/${id}`}>
+                        <button className="serviceBtn">Reservation</button>
+                    </Link>
                 </div>
             </div>
         </div>

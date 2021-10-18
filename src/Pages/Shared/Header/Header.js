@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
                 <NavLink to="/home" className="logo">Soul Sense Healtcare</NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

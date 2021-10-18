@@ -8,6 +8,7 @@ import Header from './Pages/Shared/Header/Header';
 import Services from './Pages/Home/Services/Services';
 import Clinicians from './Pages/Clinicians/Clinicians';
 import Blog from './Pages/Blog/Blog';
+import Reservation from './Pages/Reservation/Reservation';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
 
         <Route exact path="/blog">
           <Blog></Blog>
+        </Route>
+
+        <Route path="/reservation/:reserveId">
+          <Reservation></Reservation>
         </Route>
 
         <Route path='*'>

@@ -1,0 +1,36 @@
+.single-details h2{
+    margin: 5rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.single-details h2 span{
+    color: #002d74;
+
+}
+
+.single-details .detailsImg{
+    margin: auto;
+    text-align: center;
+}
+
+.single-details .detailsImg img{
+    width: 30rem;
+}
+
+.details-contents{
+    text-align: center;
+}
+
+.details-contents button{
+    border: none;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    background: #002d74;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.details-contents button:hover{
+    background: #041b3d;
+}
