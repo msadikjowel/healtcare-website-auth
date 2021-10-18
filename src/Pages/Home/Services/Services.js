@@ -10,7 +10,7 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    console.log(services)
+    // console.log(services)
     return (
         <div className="mt-5 services">
             <h2 className="text-center">Our <span>Services</span></h2>

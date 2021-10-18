@@ -1,0 +1,28 @@
+
+
+.loginBtn{
+    border: none;
+    border-radius: 5px;
+    background: #002d74;
+    color: #fff;
+    padding: .5rem 1.5rem;
+}
+
+.registerLink{
+    text-decoration: none;
+    color: #002d74;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.loginPara{
+    padding-bottom: 11.5rem;
+}
+
+.orBtn{
+    
+    margin: 0 10px;
+    border: none;
+    color: navy;
+    background: none;
+}
