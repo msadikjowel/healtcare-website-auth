@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
-                <NavLink to="/home" className="logo">Soul Sense Healtcare</NavLink>
+                <NavLink to="/home" className="logo">Soul Sense Healthcare</NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto nav">
@@ -27,7 +27,7 @@ const Header = () => {
                             user.email ?
                                 <div>
                                     <img src={user?.photoURL} className="userPic" alt="" />
-                                    <NavLink to="" className="loginLink">{user?.displayName}</NavLink>
+                                    <NavLink to="/userInfo" className="loginLink">{user?.displayName}</NavLink>
                                     <button className="logoutBtn" onClick={logOut}>LogOut</button>
                                 </div>
                                 :

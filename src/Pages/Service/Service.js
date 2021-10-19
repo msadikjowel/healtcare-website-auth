@@ -7,6 +7,8 @@ const Service = (props) => {
     const { id, name, img, shortDesc } = props.service;
     return (
         <div className="carts">
+
+            {/* cart */}
             <div className="cart">
                 <div className="cart-img">
                     <img className="img-fluid" src={img} alt="" />
@@ -19,6 +21,7 @@ const Service = (props) => {
                     </Link>
                 </div>
             </div>
+
         </div>
     );
 };

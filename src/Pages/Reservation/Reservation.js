@@ -22,9 +22,9 @@ const Reservation = () => {
             .then(matched => setInfo(matched))
     }, [])
 
-    console.log(info)
+    // console.log(info)
 
-
+    // reserve button click handler
     const handleReservation = () => {
         alert('This function still on beta testing')
     }
@@ -38,6 +38,7 @@ const Reservation = () => {
             <div className="detailsImg">
                 <img src={info[0]?.img} alt="" className="img-fluid" />
             </div>
+
             <div className="details-contents">
                 <p className="my-5">{info[0]?.longDesc}</p>
 

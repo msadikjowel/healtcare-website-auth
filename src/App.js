@@ -13,6 +13,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import UserInfo from './Pages/UserInfo/UserInfo';
 
 function App() {
   return (
@@ -36,13 +37,13 @@ function App() {
               <Services></Services>
             </Route>
 
-            <Route exact path="/clinicians">
+            <PrivateRoute exact path="/clinicians">
               <Clinicians></Clinicians>
-            </Route>
+            </PrivateRoute>
 
-            <Route exact path="/blog">
+            <PrivateRoute exact path="/blog">
               <Blog></Blog>
-            </Route>
+            </PrivateRoute>
 
             <PrivateRoute path="/reservation/:reserveId">
               <Reservation></Reservation>
@@ -54,6 +55,10 @@ function App() {
 
             <Route exact path="/register">
               <Register></Register>
+            </Route>
+
+            <Route exact path="/userInfo">
+              <UserInfo></UserInfo>
             </Route>
 
             <Route path='*'>

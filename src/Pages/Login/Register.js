@@ -53,13 +53,17 @@ const Register = () => {
     }
 
 
-
+    // login process
     const processLogin = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setLoginUser(result.user);
-                console.log(loginUser)
-                setError('')
+                history.push(redirect);
+                // console.log(loginUser)
+                setError('');
+
+
+
             })
             .catch(error => {
                 setError("User not found, please register")
@@ -69,14 +73,17 @@ const Register = () => {
         // }
     }
 
+    // register process 
+
     const registerNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setLoginUser(result.user);
-                console.log(loginUser);
+                // console.log(loginUser);
                 setError('');
                 verifyEmail();
                 setUserName();
+                history.push(redirect);
             })
             .catch(error => {
                 setError("You have already an account, please login");
@@ -86,6 +93,7 @@ const Register = () => {
         }
     }
 
+    // setting username after login via email and password 
     const setUserName = () => {
         updateProfile(auth.currentUser, { displayName: name })
             .then(result => {
@@ -106,6 +114,7 @@ const Register = () => {
         setIsLogin(e.target.checked)
     }
 
+    // handling name change
     const handleNameChange = e => {
         setName(e.target.value);
     }
@@ -143,14 +152,17 @@ const Register = () => {
                 <Form.Label>Address</Form.Label>
                 <Form.Control type="text" placeholder="Enter Address" required />
             </Form.Group> */}
+
             <Form.Group onChange={toggleLogin} className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Already have an Account?" />
             </Form.Group>
 
+            {/* error message */}
             <div>
                 <p className="text-danger">{error}</p>
             </div>
 
+            {/* toggle login and register button */}
             <div className="loginSubmit d-flex">
                 <button className="loginBtn my-3">{isLogin ? "Login" : "Register"}</button>
 
